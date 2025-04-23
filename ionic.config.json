@@ -1,0 +1,7 @@
+{
+  "name": "alunos_profile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
