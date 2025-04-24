@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-title class="logo-title">Alunos Unisuam</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content-instagram">
+  <div class="feed">
+    <div
+      class="card-feed"
+      *ngFor="let aluno of alunos"
+      (click)="mostrarDetalhes(aluno)"
+    >
+      <img [src]="aluno.image" class="avatar" alt="Foto do aluno" />
+      <div class="info">
+        <h2>{{ aluno.nome }}</h2>
+        <p>Turma: {{ aluno.turma }}</p>
+        <p>Turno: {{ aluno.turno }}</p>
+        <p>Unidade: {{ aluno.unidade }}</p>
+      </div>
+      <ion-icon name="heart-outline" class="like-button" color="danger"></ion-icon>
+    </div>
+  </div>
+</ion-content>
+

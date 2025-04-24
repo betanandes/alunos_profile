@@ -1,13 +1,14 @@
 import { Routes } from '@angular/router';
+import { AlunoPage } from './aluno/aluno.page';
 
 export const routes: Routes = [
   {
-    path: 'home',
-    loadComponent: () => import('./home/home.page').then((m) => m.HomePage),
+    path: '',
+    redirectTo: 'aluno',
+    pathMatch: 'full',
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full',
+    path: 'aluno',
+    component: AlunoPage,
   },
 ];

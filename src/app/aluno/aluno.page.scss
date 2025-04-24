@@ -1,0 +1,56 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  ion-content {
+    --background: linear-gradient(to bottom, #ffeaf4, #e5f0ff);
+  }
+  
+
+  .feed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card-feed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    transition: 0.2s ease-in-out;
+  }
+  
+  .card-feed:hover {
+    transform: scale(1.02);
+  }
+  
+  .avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  p {
+    margin: 4px 0 0 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  
