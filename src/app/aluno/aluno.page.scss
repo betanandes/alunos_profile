@@ -3,19 +3,17 @@
 }
 
 ion-content {
-  background: #ffeaf4 !important;
-  --background: #ffeaf4 !important;
-  overflow-y: auto;
-  height: auto;
+  //background: #ffeaf4 !important;
+  //--background: #ffeaf4 !important;
 }
 
 
 .logo-title {
   text-align: center;
-  padding: 15px;
+  padding-bottom: 15px;
   padding-top: 30px;
   background-color: #fb42a8;
-  color: #fff;
+  color: white;
 }
 
   
@@ -30,10 +28,10 @@ ion-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(255, 253, 253);
     border-radius: 16px;
     padding: 16px;
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 2px 10px 24px rgba(0, 0, 0, 0.155);
     transition: 0.2s ease-in-out;
   }
   
