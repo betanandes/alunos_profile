@@ -3,10 +3,19 @@
 }
 
 ion-content {
-  --background: linear-gradient(to bottom, #ffeaf4, #e5f0ff);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  background: #ffeaf4 !important;
+  --background: #ffeaf4 !important;
+  overflow-y: auto;
+  height: auto;
+}
+
+
+.logo-title {
+  text-align: center;
+  padding: 15px;
+  padding-top: 30px;
+  background-color: #fb42a8;
+  color: #fff;
 }
 
   
@@ -26,10 +35,6 @@ ion-content {
     padding: 16px;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
     transition: 0.2s ease-in-out;
-  }
-  
-  .card-feed:hover {
-    transform: scale(1.02);
   }
   
   .avatar {

@@ -44,17 +44,18 @@ export class AlunoPage {
     }
   ];
 
-  async mostrarDetalhes(aluno: any) {
-    const alert = await this.alertCtrl.create({
-      header: aluno.nome,
-      message: `
-        <strong>Turma:</strong> ${aluno.turma}<br>
-        <strong>Turno:</strong> ${aluno.turno}<br>
-        <strong>Unidade:</strong> ${aluno.unidade}
-      `,
-      buttons: ['OK']
-    });
+async mostrarDetalhes(aluno: any) {
+  const alert = await this.alertCtrl.create({
+    header: `🎓 ${aluno.nome}`,
+    subHeader: 'Detalhes do Aluno',
+    message:
+      `Turma: ${aluno.turma}\n` +
+      `Turno: ${aluno.turno}\n` +
+      `Unidade: ${aluno.unidade}`,
+    buttons: ['OK']
+  });
+  
+  await alert.present();
+}
 
-    await alert.present();
-  }
 }

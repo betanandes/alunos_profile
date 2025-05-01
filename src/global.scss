@@ -34,11 +34,31 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import '@ionic/angular/css/palettes/dark.system.css';
+// @import "@ionic/angular/css/palettes/dark.system.css";
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+ion-alert.meu-alerta-customizado::part(alert) {
+    background-color: #ffeaf4 !important;
+    border-radius: 16px;
+    color: #222;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   }
+  
+  ion-alert.meu-alerta-customizado::part(header) {
+    color: #d63384;
+    font-weight: bold;
+  }
+  
+  body.dark ion-content {
+    --background: #ffeaf4 !important;
+    background: #ffeaf4 !important;
+  }
+  
+ ion-toolbar::part(title) {
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
   
