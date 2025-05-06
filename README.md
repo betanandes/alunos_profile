@@ -49,5 +49,5 @@ Figma (para UI/UX)
 
 Android Studio (para geração de APK)<br><br><br>
 
-✨ Projeto desenvolvido com muito esforço, aprendizado e 💙 por Roberta, Beatriz, Liang e Yhuri.
+✨ Projeto em desenvolvimento com muito esforço, aprendizado e 💙 por Roberta, Beatriz, Liang e Yhuri.
 
